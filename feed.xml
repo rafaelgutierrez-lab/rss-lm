@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ejemplo de Feed RSS</title>
+    <link>https://www.ejemplo.com/rss</link>
+    <description>Este es un ejemplo de un feed RSS.</description>
+    <language>es</language>
+    <lastBuildDate>Mon, 12 Jul 2021 09:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.ejemplo.com/rss" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Artículo 1</title>
+      <link>https://www.ejemplo.com/articulo1</link>
+      <description>Este es el primer artículo del feed.</description>
+      <pubDate>Sun, 11 Jul 2021 12:00:00 GMT</pubDate>
+      <guid>https://www.ejemplo.com/articulo1</guid>
+    </item>
+
+    <item>
+      <title>Artículo 2</title>
+      <link>https://www.ejemplo.com/articulo2</link>
+      <description>Este es el segundo artículo del feed.</description>
+      <pubDate>Sat, 10 Jul 2021 10:30:00 GMT</pubDate>
+      <guid>https://www.ejemplo.com/articulo2</guid>
+    </item>
+
+    <!-- Agrega más elementos item según sea necesario -->
+  </channel>
+</rss>
